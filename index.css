@@ -1,0 +1,63 @@
+ 
+
+
+  .menu{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.heading{
+  padding-top: 0px;
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  .image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8 {
+    float: left;
+    width: 23%;
+    padding: 12px;
+  
+  }
+  .main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .pages{
+    margin-left: 600px;
+  }
+  .about1{
+     margin-left: 500px;
+  } 
+  .heading{
+    margin-left: 600px;
+    margin-top: 0px;
+  }
+  
+  .aboutchef{
+    margin-left: 500px;
+  }
+  .aboutchef1{
+  
+    margin-left: 400px;
+  }
+  .pages {
+    display: inline-block;
+  }
+  
+  .pages a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pages a.page1 {
+    background-color: #000000;
+    color: white;
+  }
+  
+  .pages a:hover:not(.page1) {background-color: #ddd;}
